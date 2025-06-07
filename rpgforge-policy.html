@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Política de Privacidade - RPG Forge</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #3f51b5;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      position: relative;
+    }
+    #lang-toggle {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: white;
+      color: #3f51b5;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-top: 0;
+    }
+    h2 {
+      color: #3f51b5;
+    }
+    p {
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #888;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #3f51b5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="title">Política de Privacidade</h1>
+    <p id="subtitle">RPG Forge - Ficha de RPG D&D 5e</p>
+    <button id="lang-toggle">EN</button>
+  </header>
+
+  <main>
+    <p><strong id="last-updated-label">Última atualização:</strong> <span id="last-updated">07 de junho de 2025</span></p>
+
+    <h2 id="section1-title">1. Coleta de Dados</h2>
+    <p id="section1-text">Nosso aplicativo não coleta nenhum dado pessoal do usuário. Todas as informações são mantidas localmente no dispositivo.</p>
+
+    <h2 id="section2-title">2. Armazenamento de Dados</h2>
+    <p id="section2-text">Os dados criados, como fichas e anotações, são armazenados apenas no dispositivo do usuário utilizando o banco de dados local SQLite.</p>
+
+    <h2 id="section3-title">3. Acesso à Internet</h2>
+    <p id="section3-text">O aplicativo funciona completamente offline e não realiza conexões com a internet.</p>
+
+    <h2 id="section4-title">4. Compartilhamento de Dados</h2>
+    <p id="section4-text">O RPG Forge não compartilha, transmite ou envia dados do usuário a terceiros.</p>
+
+    <h2 id="section5-title">5. Segurança</h2>
+    <p id="section5-text">Como os dados ficam apenas no dispositivo, é responsabilidade do usuário manter a segurança física e digital do mesmo.</p>
+
+    <h2 id="section6-title">6. Conteúdo</h2>
+    <p id="section6-text">O aplicativo não contém nenhum conteúdo impróprio ou pornográfico. É voltado exclusivamente à organização de fichas para jogos de RPG.</p>
+
+    <h2 id="section7-title">7. Alterações nesta Política</h2>
+    <p id="section7-text">Esta política pode ser atualizada a qualquer momento. Quaisquer alterações serão informadas nesta mesma página.</p>
+
+    <h2 id="section8-title">8. Contato</h2>
+    <p id="section8-text">Em caso de dúvidas, entre em contato pelo e-mail: <a href="mailto:rpgforgeapp@gmail.com">rpgforgeapp@gmail.com</a></p>
+  </main>
+
+  <footer>
+    <span id="footer-text">© 2025 RPG Forge. Todos os direitos reservados.</span>
+  </footer>
+
+  <script>
+    const translations = {
+      en: {
+        title: "Privacy Policy",
+        subtitle: "RPG Forge - D&D 5e Character Sheet",
+        "last-updated-label": "Last updated:",
+        section1: ["1. Data Collection", "Our app does not collect any personal data. All information is kept locally on the device."],
+        section2: ["2. Data Storage", "Created data, such as character sheets and notes, is stored only on the user's device using a local SQLite database."],
+        section3: ["3. Internet Access", "The app works fully offline and does not connect to the internet."],
+        section4: ["4. Data Sharing", "RPG Forge does not share, transmit, or send user data to third parties."],
+        section5: ["5. Security", "Since data remains only on the device, it's the user's responsibility to maintain physical and digital security."],
+        section6: ["6. Content", "The app does not contain inappropriate or pornographic content. It is intended solely for organizing RPG character sheets."],
+        section7: ["7. Policy Changes", "This policy may be updated at any time. Any changes will be posted on this same page."],
+        section8: ["8. Contact", "If you have any questions, contact us at: "],
+        footer: "© 2025 RPG Forge. All rights reserved.",
+        button: "PT"
+      },
+      pt: {
+        title: "Política de Privacidade",
+        subtitle: "RPG Forge - Ficha de RPG D&D 5e",
+        "last-updated-label": "Última atualização:",
+        section1: ["1. Coleta de Dados", "Nosso aplicativo não coleta nenhum dado pessoal do usuário. Todas as informações são mantidas localmente no dispositivo."],
+        section2: ["2. Armazenamento de Dados", "Os dados criados, como fichas e anotações, são armazenados apenas no dispositivo do usuário utilizando o banco de dados local SQLite."],
+        section3: ["3. Acesso à Internet", "O aplicativo funciona completamente offline e não realiza conexões com a internet."],
+        section4: ["4. Compartilhamento de Dados", "O RPG Forge não compartilha, transmite ou envia dados do usuário a terceiros."],
+        section5: ["5. Segurança", "Como os dados ficam apenas no dispositivo, é responsabilidade do usuário manter a segurança física e digital do mesmo."],
+        section6: ["6. Conteúdo", "O aplicativo não contém nenhum conteúdo impróprio ou pornográfico. É voltado exclusivamente à organização de fichas para jogos de RPG."],
+        section7: ["7. Alterações nesta Política", "Esta política pode ser atualizada a qualquer momento. Quaisquer alterações serão informadas nesta mesma página."],
+        section8: ["8. Contato", "Em caso de dúvidas, entre em contato pelo e-mail: "],
+        footer: "© 2025 RPG Forge. Todos os direitos reservados.",
+        button: "EN"
+      }
+    };
+
+    let currentLang = "pt";
+
+    document.getElementById("lang-toggle").addEventListener("click", () => {
+      currentLang = currentLang === "pt" ? "en" : "pt";
+      const t = translations[currentLang];
+
+      document.getElementById("title").innerText = t.title;
+      document.getElementById("subtitle").innerText = t.subtitle;
+      document.getElementById("last-updated-label").innerText = t["last-updated-label"];
+
+      for (let i = 1; i <= 8; i++) {
+        document.getElementById(`section${i}-title`).innerText = t[`section${i}`][0];
+        document.getElementById(`section${i}-text`).childNodes[0].nodeValue = t[`section${i}`][1];
+      }
+
+      document.getElementById("footer-text").innerText = t.footer;
+      document.getElementById("lang-toggle").innerText = t.button;
+    });
+  </script>
+</body>
+</html>
